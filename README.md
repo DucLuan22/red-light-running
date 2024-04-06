@@ -19,7 +19,7 @@ Secondly, install Python version 3.7.16
   pip install python==3.7.16
 ```
 #### CUDA 11.6
-In order to run object detection model using NVIDIA GPU, CUDA need to be installed. The version of CUDA used for this project is 11.6. (For NVIDIA PC only)
+In order to run object detection model using NVIDIA GPU, CUDA need to be installed. The version of CUDA used for this project is 11.6. (For computer with NVIDIA GPU only)
 ```http
 https://developer.nvidia.com/cuda-11-6-0-download-archive
 ```
@@ -32,17 +32,21 @@ pip install -r requirements.txt
 
 ## Usage
 After installing all dependencies, you will be able to run the program by running the runs.py.
-#### Run the program
+#### 1. Run the program
 ```http
 python runs.py
    ```
-
-#### User Interface Buttons
+#### 2. User interface
+![alt text](https://raw.githubusercontent.com/DucLuan22/red-light-running-detection/master/README%20Assets/ui.png)
+#### 3. User interface buttons
 - **Selection MP4 File**: Open MP4 file.
 - **Pause/Clear Video**: Pause or clear the detection process.
 - **Export to PDF/CSV**: Export recorded violation under PDF or Excel spreadsheet format.
-
-
+#### 4. Open a MP4 file
+To  test the system, the user need to open and MP4 file which can be founded in the **data** folder.
+#### 5. Export file
+When a violation is recorded, the user can export the violation in terms of CSV or PDF format. Examples for the export feature can be seen in the **data** folder.
 ## Acknowledgements
  - [Ultralytics](https://github.com/ultralytics/ultralytics)
  - [DeepSort](https://github.com/nwojke/deep_sort)
+
