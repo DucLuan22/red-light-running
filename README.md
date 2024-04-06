@@ -46,4 +46,3 @@ python runs.py
 ## Acknowledgements
  - [Ultralytics](https://github.com/ultralytics/ultralytics)
  - [DeepSort](https://github.com/nwojke/deep_sort)
-
