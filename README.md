@@ -38,14 +38,17 @@ python runs.py
    ```
 #### 2. User interface
 ![alt text](https://raw.githubusercontent.com/DucLuan22/red-light-running-detection/master/README%20Assets/ui.png)
-#### 3. User interface buttons
+#### 3. User interface
 - **Selection MP4 File**: Open MP4 file.
 - **Pause/Clear Video**: Pause or clear the detection process.
 - **Export to PDF/CSV**: Export recorded violation under PDF or Excel spreadsheet format.
-#### 4. Open a MP4 file
-To  test the system, the user need to open and MP4 file which can be founded in the **data** folder.
+- **Table**: Record violation.
+#### 4. Open a MP4 file and Record Violation
+To  test the system, the user need to open a MP4 file which can be founded in the **data** folder. When the video is selected, the system will start detecting any red-light running violation in the footage, then saved it in the table.
+![alt text](https://raw.githubusercontent.com/DucLuan22/red-light-running-detection/master/README%20Assets/recorded.png)
 #### 5. Export file
 When a violation is recorded, the user can export the violation in terms of CSV or PDF format. Examples for the export feature can be seen in the **data** folder.
+
 ## Acknowledgements
  - [Ultralytics](https://github.com/ultralytics/ultralytics)
  - [DeepSort](https://github.com/nwojke/deep_sort)
